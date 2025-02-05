@@ -1,32 +1,171 @@
-# Prerequisites
-*.d
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Hub: JJK, Demon Slayer, Solo Leveling & Top 10 Worldwide Anime Loved</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: #f0f0f0;
+            color: #333;
+        }
 
-# Precompiled Headers
-*.gch
-*.pch
+        header {
+            background: #282c34;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
 
-# Fortran module files
-*.mod
-*.smod
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
 
-# Executables
-*.exe
-*.out
-*.app
+        .anime-section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .anime-section:hover {
+            transform: translateY(-5px);
+        }
+
+        .anime-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .anime-thumbnail {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .anime-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .anime-list li {
+            list-style: none;
+            max-width: 200px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #282c34;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Anime Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#jjk">Jujutsu Kaisen</a></li>
+                <li><a href="#demon-slayer">Demon Slayer</a></li>
+                <li><a href="#solo-leveling">Solo Leveling</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Top Anime Selections</h2>
+<h3>Top 5 Worldwide Anime Loved</h3>
+<div class="anime-section">
+    <div class="anime-content">
+        <ul class="anime-list">
+            <li>
+                <p>My Hero Academia</p>
+                <img class="anime-thumbnail" src="https://static.wikia.nocookie.net/bokunoheroacademia/images/3/3c/Izuku_continues_moving_forward_at_any_cost.png/revision/latest/scale-to-width-down/220?cb=20230305073419" alt="Izuku Midoriya">
+            </li>                
+            <li>
+                <p>Attack on Titan</p>
+                <img class="anime-thumbnail" src="https://prod-printler-front-as.azurewebsites.net/media/photo/139846.jpg?mode=crop&width=725&height=1024&rnd=0.0.1" alt="Eren Yeager">
+            </li>                
+            <li>
+                <p>Fullmetal Alchemist: Brotherhood</p>
+                <img class="anime-thumbnail" src="https://static.wikia.nocookie.net/fma/images/0/08/213254_1407532169190_full.png/revision/latest/scale-to-width-down/1000?cb=20201016012253" alt="Edward Elric">
+            </li>
+            <li>
+                <p>Death Note</p>
+                <img class="anime-thumbnail" src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6f/Death_Note_Vol_1.jpg/220px-Death_Note_Vol_1.jpg" alt="Light Yagami">
+            </li>
+            <li>
+                <p>One Piece</p>
+                <img class="anime-thumbnail" src="https://images4.alphacoders.com/127/1273867.jpg" alt="Monkey D. Luffy">
+            </li>                
+        </ul>
+    </div>
+</div>
+
+
+    <section id="jjk" class="anime-section">
+        <div class="anime-content">
+            <h2>Jujutsu Kaisen</h2>
+            <img class="anime-thumbnail" src="https://images5.alphacoders.com/114/1141137.jpg" alt="Yuji Itadori">
+            <p>Join Yuji Itadori on his journey to battle curses with the power of Jujutsu sorcery.</p>
+            <h3>Main Character: Yuji Itadori</h3>
+            <p>Yuji Itadori is an energetic and kind-hearted teenager who becomes the central character of *Jujutsu Kaisen*. After swallowing a cursed object — the finger of a powerful curse named Ryomen Sukuna — Yuji gains immense strength and cursed energy. He decides to join Jujutsu High to help protect people from curses, all while trying to find a way to rid himself of Sukuna's influence. Yuji is driven by his desire to save others, despite the overwhelming odds stacked against him.</p>
+        </div>
+    </section>    
+
+    <section id="demon-slayer" class="anime-section">
+        <div class="anime-content">
+            <h2>Demon Slayer</h2>
+            <img class="anime-thumbnail" src="https://wallpapers.com/images/hd/intense-tanjiro-kamado-with-demon-slayer-logo-3ztspr616hw9vnkg.jpg" alt="Tanjiro Kamado">
+            <p>Follow Tanjiro Kamado as he fights demons with his swordsmanship.</p>
+            <h3>Main Character: Tanjiro Kamado</h3>
+            <p>Tanjiro Kamado is a determined and compassionate boy whose life changes when his family is slaughtered by demons, and his younger sister, Nezuko, is transformed into one. After witnessing the horrors caused by demons, Tanjiro becomes a Demon Slayer to find a cure for Nezuko and avenge his family. Despite the grim nature of his task, Tanjiro maintains his kindness, humility, and relentless pursuit of justice, making him a beloved and admirable protagonist.</p>
+        </div>
+    </section>    
+
+    <section id="solo-leveling" class="anime-section">
+        <div class="anime-content">
+            <h2>Solo Leveling</h2>
+            <img class="anime-thumbnail" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6339fa38-c77b-410a-b0e3-ba28abb4e6e0/dh6l4ae-842c1183-ecd5-4356-a687-9daf13bd93a2.jpg/v1/fill/w_1280,h_720,q_75,strp/sung_jin_woo___solo_leveling_wallpaper_by_gamestead_dh6l4ae-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzIwIiwicGF0aCI6IlwvZlwvNjMzOWZhMzgtYzc3Yi00MTBhLWIwZTMtYmEyOGFiYjRlNmUwXC9kaDZsNGFlLTg0MmMxMTgzLWVjZDUtNDM1Ni1hNjg3LTlkYWYxM2JkOTNhMi5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.2YjLy5jHyoju9WVbSmdcwm8JXCga9xHng1uXPWoBlLQ" alt="Sung Jin-Woo">
+            <p>Watch Sung Jin-Woo as he becomes the strongest hunter in the world.</p>
+            <h3>Main Character: Sung Jin-Woo</h3>
+            <p>Sung Jin-Woo starts off as a weak "hunter" in a world where people gain powers to fight monsters from mysterious dungeons. Initially seen as the "world's weakest hunter," Jin-Woo's life changes when he is chosen to receive a special power after surviving a near-fatal dungeon. With this newfound ability, he starts leveling up at an unprecedented rate and becomes one of the most powerful hunters. His transformation from an underdog to a powerful hero makes his journey gripping and exciting.</p>
+        </div>
+    </section>    
+
+    <footer>
+        <p>&copy; 2023 Anime Hub</p>
+    </footer>
+
+</body>
+</html>
